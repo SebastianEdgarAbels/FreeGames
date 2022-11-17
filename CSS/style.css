@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(39, 43, 48) !important;
+    
+
+}
+.navbar {
+    margin-bottom: 1rem;
+}
+
+
+.card {
+    /* margin-top: 5rem;  */
+    margin-left: 2rem; 
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* Button and Modal */
+.btn {
+    margin: 0.1rem;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+  }
+
+  #ModalContent {
+    width: 50%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .card-Body { 
+    /* position: relative;
+    height: 200px; */
+    width: 200px !important;
+    color:red !important;
+  }
+
+  .show {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+
+  .modal-body {
+    display: grid;
+    grid-template-columns: [first] 10rem [second] 25rem [third];
+  }
+  
+  #idSelectGenre {
+    align-self: center;
+  }
+  select[name="Genre"] {
+    justify-self: start;
+    grid-column-start: [first] / [second];
+    width: 8rem;
+    height: 2.5rem;
+  }
+
+  input[type=checkbox] {
+    justify-self: end;
+    grid-column-start: [second] / [third];
+
+  }
+
+  .btn-warning {
+    --bs-btn-line-height: 9px !important;
+  }
+ 
+  .col-sm-3 {
+    background-color:rgb(44,49,54) !important;
+  }
+
+  .list-group-item {
+    background-color:rgb(44,49,54) !important;
+  }
+
+  .card-title {
+    color:rgb(160, 160, 160) !important;
+  }
+
+  .card-text {
+    color:rgb(160, 160, 160) !important;
+  }
+ 
+  .list-group-item {
+    color:rgb(160, 160, 160) !important;
+  }
+
+
+  /* hier start the footer */
+.text-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  color: rgb(160, 160, 160);
+  /* width: 10px */
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(160, 160, 160);
+  text-align: center;
+}
+
+.footerP {
+  padding-right: 5px;
+  text-align:left;
+}
+
+.text-center {
+  color: rgb(160, 160, 160);
+}
